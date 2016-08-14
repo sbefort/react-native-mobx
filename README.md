@@ -4,6 +4,11 @@ React Native Reactive programming using [RNRF](https://github.com/aksonov/react-
 ## What is it?
 Thin wrapper around Mobx allows to use all power of reactive programming but leave your React Native Components 'framework free' i.e doesn't depend from MobX, Redux, etc.
 
+## Installation
+```jsx
+npm install --save react-native-mobx autobind-decorator babel-preset-react-native-stage-0
+````
+And you need to add this file to your project, [.babelrc](https://github.com/aksonov/react-native-mobx/blob/master/Example/.babelrc)
 
 ## How to use it?
 This component is just thin wrapper around [RNRF](https://github.com/aksonov/react-native-router-flux), so check its docs, install it and then install this module and import it instead of RNRF.
